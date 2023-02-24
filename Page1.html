@@ -28,10 +28,12 @@
     <link rel="stylesheet" href="scratch_1.css">
     <link rel="stylesheet" href="scratch_2.css">
     <link rel="stylesheet" href="static/css/custom_style.css">
+    <link rel="stylesheet" href="Charts/Map Total Cases/css/styles.css">
 
     <!--D3.js -->
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+    <!-- <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script> -->
 
 
 </head>
@@ -53,11 +55,22 @@
 
         <!---------------------------------------------------------------------------------------->
         <br>
-        <h2><b>Simple Bar Chart</b></h2>
-        <h4>
-            This plot uses a straightforward bar chart to show..........<br>
-        </h4>
+        <h2><b>World Map of Total Cases</b></h2>
+        <div class="tooltip"></div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
 
+        <script src="Charts/Map Total Cases/js/map_totalcases.js"></script>
+        </div>
+
+        <h2><b>Simple Bar of Total Cases</b></h2>
+        <div class="tooltip"></div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
+
+        <script src="Charts/Map Total Cases/js/map_totalcases.js"></script>
         </div>
 
     </div>
